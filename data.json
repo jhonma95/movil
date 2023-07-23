@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "equipo": "MOTO EDGE PRO 40",
+        "precio": 6500,
+        "img": "./img/moto-1.png",
+        "cantidad": 1,
+        "tipo": "MOTOROLA"
+    },
+    {
+        "id": 2,
+        "equipo": "MOTO G22",
+        "precio": 9300,
+        "img": "./img/moto-3.png",
+        "cantidad": 1,
+        "tipo": "MOTOROLA"
+    },
+    {
+        "id": 3,
+        "equipo": "MOTO G 52",
+        "precio": 10500,
+        "img": "./img/moto-5.png",
+        "cantidad": 1,
+        "tipo": "MOTOROLA"
+    },
+    {
+        "id": 4,
+        "equipo": "SAMSUNG A23",
+        "precio": 19500,
+        "img": "./img/sam-1.png",
+        "cantidad": 1,
+        "tipo": "SAMSUNG"
+    },
+    {
+        "id": 5,
+        "equipo": "SAMSUNG  A53",
+        "precio": 18500,
+        "img":"./img/sam-4.png",
+        "cantidad": 1,
+        "tipo": "SAMSUNG"
+    },
+    {
+        "id": 6,
+        "equipo": "SAMSUNG  A04",
+        "precio": 28500,
+        "img":"./img/sam-5.png",
+        "cantidad": 1,
+        "tipo": "SAMSUNG"
+    },
+    {
+        "id": 7,
+        "equipo": "HUAWEI P20 LITE",
+        "precio": 6300,
+        "img":"./img/sam-5.png",
+        "cantidad": 1,
+        "tipo": "HUAWEI"
+    },
+    {
+        "id": 8,
+        "equipo": "HUAWEI P30 LITE",
+        "precio": 5300,
+        "img":"./img/hua-3.png",
+        "cantidad": 1,
+        "tipo": "HUAWEI"
+    },
+    {
+        "id": 9,
+        "equipo": "HUAWEI Y9 LITE",
+        "precio": 5300,
+        "img":"./img/hua-5.png",
+        "cantidad": 1,
+        "tipo": "HUAWEI"
+    }
+    
+
+
+]
