@@ -7,8 +7,11 @@ const cantidadCarrito = document.getElementById("cantidadCarrito")
 let carrito = JSON.parse(localStorage.getItem("reservas")) || [];
 
 const getproductos = async () => {
-    const response = await fetch("./data.json");
-    const data = await response.json();
+    try {
+        const response = await fetch("./data.json");
+        const data = await response.json();
+
+    
 
     data.forEach((paquets) => {
         let content = document.createElement("div");
@@ -124,7 +127,7 @@ const getproductos = async () => {
         verCarrito.addEventListener("click", pintarCarrito);
 
 
-         const eliminarReserva = (id) => {
+        const eliminarReserva = (id) => {
             const encontrarId = carrito.find((elemento) => elemento.id === id);
 
             carrito = carrito.filter((carritoId) =>{
@@ -155,7 +158,15 @@ const getproductos = async () => {
             
         };
     
+
 }
+catch (error) {
+        
+        console.error("Error al cargar los productos:", error);
+        }
+    };
+
+
     getproductos();
 
         JSON.parse(localStorage.getItem("reservas"));
